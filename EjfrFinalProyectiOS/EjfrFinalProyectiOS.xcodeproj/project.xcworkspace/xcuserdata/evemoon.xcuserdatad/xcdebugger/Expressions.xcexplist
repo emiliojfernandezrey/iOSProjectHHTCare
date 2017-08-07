@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[NewBledTableViewController viewDidLoad]:NewBledTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[Utils getAreasDictionary]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AreaStatisticsViewController viewDidLoad]:AreaStatisticsViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[NewBledTableViewController saveBledAction:]:NewBledTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.database">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[NewBledTableViewController datePickerValueChanged:]:NewBledTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[Utils getDateFormatterStringWithDefaultFormatFrom:date]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[HistoryTableViewController prepareForSegue:sender:]:HistoryTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.selectedBleed.date">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

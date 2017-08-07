@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		098B9C901F220D6700DAB138 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 098B9C8F1F220D6700DAB138 /* Utils.m */; };
+		098BCE861F25ECB800B9781D /* StatisticsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 098BCE851F25ECB800B9781D /* StatisticsTableViewController.m */; };
+		098BCE891F26099800B9781D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098BCE881F26099800B9781D /* MapKit.framework */; };
+		098BCE921F2612B200B9781D /* MapLocationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 098BCE911F2612B200B9781D /* MapLocationAnnotation.m */; };
+		0996338F1F1F7EF800B7CA9B /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0996338E1F1F7EF800B7CA9B /* MainTableViewController.m */; };
+		099C96BA1F20BA7500D01FD8 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 099C96B81F20BA7500D01FD8 /* DataModel.xcdatamodeld */; };
+		099C96BF1F20CA3900D01FD8 /* Bleed+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 099C96BC1F20CA3900D01FD8 /* Bleed+CoreDataClass.m */; };
+		099C96C01F20CA3900D01FD8 /* Bleed+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 099C96BE1F20CA3900D01FD8 /* Bleed+CoreDataProperties.m */; };
+		099C96C41F20CA6E00D01FD8 /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 099C96C31F20CA6E00D01FD8 /* DataBase.m */; };
+		0F10F68B1F1E6CE700AC6C87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F10F68A1F1E6CE700AC6C87 /* main.m */; };
+		0F10F68E1F1E6CE700AC6C87 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F10F68D1F1E6CE700AC6C87 /* AppDelegate.m */; };
+		0F10F6911F1E6CE700AC6C87 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F10F6901F1E6CE700AC6C87 /* MapViewController.m */; };
+		0F10F6941F1E6CE700AC6C87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F10F6921F1E6CE700AC6C87 /* Main.storyboard */; };
+		0F10F6961F1E6CE700AC6C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F10F6951F1E6CE700AC6C87 /* Assets.xcassets */; };
+		0F10F6991F1E6CE700AC6C87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F10F6971F1E6CE700AC6C87 /* LaunchScreen.storyboard */; };
+		0F2321EE1F23578100AEB9E7 /* EditBledTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2321ED1F23578100AEB9E7 /* EditBledTableViewController.m */; };
+		0F2AE7FB1F2527C000C18B72 /* GlobalStatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F2AE7FA1F2527C000C18B72 /* GlobalStatisticsViewController.m */; };
+		0F7972301F211E7100190ED4 /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F79722F1F211E7100190ED4 /* HistoryTableViewController.m */; };
+		0F7972331F2121C200190ED4 /* BleedingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7972321F2121C200190ED4 /* BleedingTableViewCell.m */; };
+		0F7C22D01F1FCDB0006A024A /* NewBledTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7C22CF1F1FCDB0006A024A /* NewBledTableViewController.m */; };
+		0F8662751F264C95006A09FF /* AreaStatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F8662741F264C95006A09FF /* AreaStatisticsViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		098B9C8E1F220D6700DAB138 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		098B9C8F1F220D6700DAB138 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		098BCE841F25ECB800B9781D /* StatisticsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsTableViewController.h; sourceTree = "<group>"; };
+		098BCE851F25ECB800B9781D /* StatisticsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsTableViewController.m; sourceTree = "<group>"; };
+		098BCE881F26099800B9781D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		098BCE901F2612B200B9781D /* MapLocationAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocationAnnotation.h; sourceTree = "<group>"; };
+		098BCE911F2612B200B9781D /* MapLocationAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocationAnnotation.m; sourceTree = "<group>"; };
+		0996338D1F1F7EF800B7CA9B /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTableViewController.h; path = EjfrFinalProyectiOS/MainTableViewController.h; sourceTree = "<group>"; };
+		0996338E1F1F7EF800B7CA9B /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTableViewController.m; path = EjfrFinalProyectiOS/MainTableViewController.m; sourceTree = "<group>"; };
+		099C96B91F20BA7500D01FD8 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		099C96BB1F20CA3900D01FD8 /* Bleed+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bleed+CoreDataClass.h"; sourceTree = "<group>"; };
+		099C96BC1F20CA3900D01FD8 /* Bleed+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Bleed+CoreDataClass.m"; sourceTree = "<group>"; };
+		099C96BD1F20CA3900D01FD8 /* Bleed+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bleed+CoreDataProperties.h"; sourceTree = "<group>"; };
+		099C96BE1F20CA3900D01FD8 /* Bleed+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Bleed+CoreDataProperties.m"; sourceTree = "<group>"; };
+		099C96C21F20CA6E00D01FD8 /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		099C96C31F20CA6E00D01FD8 /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+		0F10F6861F1E6CE700AC6C87 /* EjfrFinalProyectiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EjfrFinalProyectiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F10F68A1F1E6CE700AC6C87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F10F68C1F1E6CE700AC6C87 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F10F68D1F1E6CE700AC6C87 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F10F68F1F1E6CE700AC6C87 /* MapViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = EjfrFinalProyectiOS/MapViewController.h; sourceTree = "<group>"; };
+		0F10F6901F1E6CE700AC6C87 /* MapViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = EjfrFinalProyectiOS/MapViewController.m; sourceTree = "<group>"; };
+		0F10F6931F1E6CE700AC6C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F10F6951F1E6CE700AC6C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F10F6981F1E6CE700AC6C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F10F69A1F1E6CE700AC6C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F2321EC1F23578100AEB9E7 /* EditBledTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditBledTableViewController.h; sourceTree = "<group>"; };
+		0F2321ED1F23578100AEB9E7 /* EditBledTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditBledTableViewController.m; sourceTree = "<group>"; };
+		0F2AE7F91F2527C000C18B72 /* GlobalStatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalStatisticsViewController.h; sourceTree = "<group>"; };
+		0F2AE7FA1F2527C000C18B72 /* GlobalStatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalStatisticsViewController.m; sourceTree = "<group>"; };
+		0F79722E1F211E7100190ED4 /* HistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		0F79722F1F211E7100190ED4 /* HistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
+		0F7972311F2121C200190ED4 /* BleedingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BleedingTableViewCell.h; sourceTree = "<group>"; };
+		0F7972321F2121C200190ED4 /* BleedingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BleedingTableViewCell.m; sourceTree = "<group>"; };
+		0F7C22CE1F1FCDB0006A024A /* NewBledTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewBledTableViewController.h; path = EjfrFinalProyectiOS/NewBledTableViewController.h; sourceTree = "<group>"; };
+		0F7C22CF1F1FCDB0006A024A /* NewBledTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewBledTableViewController.m; path = EjfrFinalProyectiOS/NewBledTableViewController.m; sourceTree = "<group>"; };
+		0F8662731F264C95006A09FF /* AreaStatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaStatisticsViewController.h; sourceTree = "<group>"; };
+		0F8662741F264C95006A09FF /* AreaStatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaStatisticsViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F10F6831F1E6CE700AC6C87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				098BCE891F26099800B9781D /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		098B9C8D1F21E79900DAB138 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0996338D1F1F7EF800B7CA9B /* MainTableViewController.h */,
+				0996338E1F1F7EF800B7CA9B /* MainTableViewController.m */,
+				0F7C22CE1F1FCDB0006A024A /* NewBledTableViewController.h */,
+				0F7C22CF1F1FCDB0006A024A /* NewBledTableViewController.m */,
+				0F10F68F1F1E6CE700AC6C87 /* MapViewController.h */,
+				0F10F6901F1E6CE700AC6C87 /* MapViewController.m */,
+				0F79722E1F211E7100190ED4 /* HistoryTableViewController.h */,
+				0F79722F1F211E7100190ED4 /* HistoryTableViewController.m */,
+				0F7972311F2121C200190ED4 /* BleedingTableViewCell.h */,
+				0F7972321F2121C200190ED4 /* BleedingTableViewCell.m */,
+				0F2321EC1F23578100AEB9E7 /* EditBledTableViewController.h */,
+				0F2321ED1F23578100AEB9E7 /* EditBledTableViewController.m */,
+				098BCE841F25ECB800B9781D /* StatisticsTableViewController.h */,
+				098BCE851F25ECB800B9781D /* StatisticsTableViewController.m */,
+				0F2AE7F91F2527C000C18B72 /* GlobalStatisticsViewController.h */,
+				0F2AE7FA1F2527C000C18B72 /* GlobalStatisticsViewController.m */,
+				0F8662731F264C95006A09FF /* AreaStatisticsViewController.h */,
+				0F8662741F264C95006A09FF /* AreaStatisticsViewController.m */,
+			);
+			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		098BCE871F26099800B9781D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				098BCE881F26099800B9781D /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		099C96C11F20CA4000D01FD8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				099C96BB1F20CA3900D01FD8 /* Bleed+CoreDataClass.h */,
+				099C96BC1F20CA3900D01FD8 /* Bleed+CoreDataClass.m */,
+				099C96BD1F20CA3900D01FD8 /* Bleed+CoreDataProperties.h */,
+				099C96BE1F20CA3900D01FD8 /* Bleed+CoreDataProperties.m */,
+				099C96C21F20CA6E00D01FD8 /* DataBase.h */,
+				099C96C31F20CA6E00D01FD8 /* DataBase.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		0F10F67D1F1E6CE700AC6C87 = {
+			isa = PBXGroup;
+			children = (
+				0F10F6881F1E6CE700AC6C87 /* EjfrFinalProyectiOS */,
+				0F10F6871F1E6CE700AC6C87 /* Products */,
+				098BCE871F26099800B9781D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0F10F6871F1E6CE700AC6C87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F10F6861F1E6CE700AC6C87 /* EjfrFinalProyectiOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F10F6881F1E6CE700AC6C87 /* EjfrFinalProyectiOS */ = {
+			isa = PBXGroup;
+			children = (
+				099C96C11F20CA4000D01FD8 /* Model */,
+				098B9C8D1F21E79900DAB138 /* Controllers */,
+				0F10F68C1F1E6CE700AC6C87 /* AppDelegate.h */,
+				0F10F68D1F1E6CE700AC6C87 /* AppDelegate.m */,
+				0F10F6921F1E6CE700AC6C87 /* Main.storyboard */,
+				0F10F6951F1E6CE700AC6C87 /* Assets.xcassets */,
+				0F10F6971F1E6CE700AC6C87 /* LaunchScreen.storyboard */,
+				0F10F69A1F1E6CE700AC6C87 /* Info.plist */,
+				0F10F6891F1E6CE700AC6C87 /* Supporting Files */,
+				099C96B81F20BA7500D01FD8 /* DataModel.xcdatamodeld */,
+				098B9C8E1F220D6700DAB138 /* Utils.h */,
+				098B9C8F1F220D6700DAB138 /* Utils.m */,
+				098BCE901F2612B200B9781D /* MapLocationAnnotation.h */,
+				098BCE911F2612B200B9781D /* MapLocationAnnotation.m */,
+			);
+			path = EjfrFinalProyectiOS;
+			sourceTree = "<group>";
+		};
+		0F10F6891F1E6CE700AC6C87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F10F68A1F1E6CE700AC6C87 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F10F6851F1E6CE700AC6C87 /* EjfrFinalProyectiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F10F69D1F1E6CE700AC6C87 /* Build configuration list for PBXNativeTarget "EjfrFinalProyectiOS" */;
+			buildPhases = (
+				0F10F6821F1E6CE700AC6C87 /* Sources */,
+				0F10F6831F1E6CE700AC6C87 /* Frameworks */,
+				0F10F6841F1E6CE700AC6C87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EjfrFinalProyectiOS;
+			productName = EjfrFinalProyectiOS;
+			productReference = 0F10F6861F1E6CE700AC6C87 /* EjfrFinalProyectiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F10F67E1F1E6CE700AC6C87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					0F10F6851F1E6CE700AC6C87 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0F10F6811F1E6CE700AC6C87 /* Build configuration list for PBXProject "EjfrFinalProyectiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F10F67D1F1E6CE700AC6C87;
+			productRefGroup = 0F10F6871F1E6CE700AC6C87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F10F6851F1E6CE700AC6C87 /* EjfrFinalProyectiOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F10F6841F1E6CE700AC6C87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F10F6991F1E6CE700AC6C87 /* LaunchScreen.storyboard in Resources */,
+				0F10F6961F1E6CE700AC6C87 /* Assets.xcassets in Resources */,
+				0F10F6941F1E6CE700AC6C87 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F10F6821F1E6CE700AC6C87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				099C96BF1F20CA3900D01FD8 /* Bleed+CoreDataClass.m in Sources */,
+				0F7972301F211E7100190ED4 /* HistoryTableViewController.m in Sources */,
+				0F10F6911F1E6CE700AC6C87 /* MapViewController.m in Sources */,
+				098B9C901F220D6700DAB138 /* Utils.m in Sources */,
+				0F8662751F264C95006A09FF /* AreaStatisticsViewController.m in Sources */,
+				0F7972331F2121C200190ED4 /* BleedingTableViewCell.m in Sources */,
+				0F2321EE1F23578100AEB9E7 /* EditBledTableViewController.m in Sources */,
+				0F2AE7FB1F2527C000C18B72 /* GlobalStatisticsViewController.m in Sources */,
+				0F10F68E1F1E6CE700AC6C87 /* AppDelegate.m in Sources */,
+				098BCE861F25ECB800B9781D /* StatisticsTableViewController.m in Sources */,
+				099C96BA1F20BA7500D01FD8 /* DataModel.xcdatamodeld in Sources */,
+				0996338F1F1F7EF800B7CA9B /* MainTableViewController.m in Sources */,
+				099C96C41F20CA6E00D01FD8 /* DataBase.m in Sources */,
+				0F10F68B1F1E6CE700AC6C87 /* main.m in Sources */,
+				0F7C22D01F1FCDB0006A024A /* NewBledTableViewController.m in Sources */,
+				099C96C01F20CA3900D01FD8 /* Bleed+CoreDataProperties.m in Sources */,
+				098BCE921F2612B200B9781D /* MapLocationAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F10F6921F1E6CE700AC6C87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F10F6931F1E6CE700AC6C87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F10F6971F1E6CE700AC6C87 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F10F6981F1E6CE700AC6C87 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F10F69B1F1E6CE700AC6C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F10F69C1F1E6CE700AC6C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F10F69E1F1E6CE700AC6C87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EjfrFinalProyectiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emilio.fernandez.EjfrFinalProyectiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0F10F69F1F1E6CE700AC6C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EjfrFinalProyectiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = emilio.fernandez.EjfrFinalProyectiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F10F6811F1E6CE700AC6C87 /* Build configuration list for PBXProject "EjfrFinalProyectiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F10F69B1F1E6CE700AC6C87 /* Debug */,
+				0F10F69C1F1E6CE700AC6C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F10F69D1F1E6CE700AC6C87 /* Build configuration list for PBXNativeTarget "EjfrFinalProyectiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F10F69E1F1E6CE700AC6C87 /* Debug */,
+				0F10F69F1F1E6CE700AC6C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		099C96B81F20BA7500D01FD8 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				099C96B91F20BA7500D01FD8 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 099C96B91F20BA7500D01FD8 /* DataModel.xcdatamodel */;
+			name = DataModel.xcdatamodeld;
+			path = ../DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0F10F67E1F1E6CE700AC6C87 /* Project object */;
+}
